@@ -1,0 +1,5 @@
+export const MAPS_API_KEY = 'AIzaSyBRHMIRg-4ETyMQ0Lp438LgQDfYigjc7Us';
+export const STRIPE_MERCHANT_IDENTIFIER = 'merchant.com.handledelivery';
+export const STRIPE_PUBLISHABLE_KEY_LIVE =
+  'pk_live_51IlOihBRGlGUJOlt2KZ0kH3WDVIlnz0marrEbXu8Z87997xjav6onmBMYlDEU95It7GZU0k77uglKBMsCtBGuxc4008Veh217b';
+export const STRIPE_PUBLISHABLE_KEY_TEST = "pk_test_51IlOihBRGlGUJOltDY2dowB2jsA4k9PwS8MFZy7s0NQF1u9ZS1aqKe56AmwaPzNZSDJoT3MjmDM8Np7iroeyg5RK00qZvlpwra";

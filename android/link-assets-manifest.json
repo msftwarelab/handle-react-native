@@ -1,0 +1,97 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/AvenirNextLTPro-Bold.otf",
+      "sha1": "ac8ad64356a006a6e701d70c3bbf3f6011f91c98"
+    },
+    {
+      "path": "src/assets/fonts/AvenirNextLTPro-BoldCn.otf",
+      "sha1": "d3ed3e81f2c54c1579d74bf4e77794ecb13d281a"
+    },
+    {
+      "path": "src/assets/fonts/AvenirNextLTPro-Demi.otf",
+      "sha1": "9f5f8199b646d5fcda786222d96bbfd618de48b8"
+    },
+    {
+      "path": "src/assets/fonts/AvenirNextLTPro-DemiCn.otf",
+      "sha1": "b79408b63afe4addf8a2862496f541ab84f0e074"
+    },
+    {
+      "path": "src/assets/fonts/AvenirNextLTPro-It.otf",
+      "sha1": "602fc8cdb3bd9e5fe83b6ea19e0762a394f287f3"
+    },
+    {
+      "path": "src/assets/fonts/AvenirNextLTPro-Regular.otf",
+      "sha1": "5431b8a80300b8dd7014f2f1d05c66b3f0d89f38"
+    },
+    {
+      "path": "src/assets/fonts/Crack-Grotesk-Medium.otf",
+      "sha1": "4763a0ce92f6d89134bf2c713a4c1cacb1965405"
+    },
+    {
+      "path": "src/assets/fonts/Crack-Grotesk.otf",
+      "sha1": "9cca14ab78e5b186bbcc4d56d3eb169bc6f3b75d"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-Bold.otf",
+      "sha1": "29469277cc4870753ad403e67738035456038256"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-ExtraBold.otf",
+      "sha1": "7ec462b9701185a82b5bab0adf40c653f320c348"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-ExtraLight.otf",
+      "sha1": "78b43bb68ea721ff868a64d998b52839559efd90"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-Light.otf",
+      "sha1": "8eda1b9d4c1701f2fa51933190f414cc0f010d0e"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-Medium.otf",
+      "sha1": "95437a9d58519aadd2735e7c531bd013dc40749a"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-Regular.otf",
+      "sha1": "63a6119ff60c567c90661a3f29447c55aaf39acc"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-SemiBold.otf",
+      "sha1": "a8125c7c75229776c24109c85fd0d4a2a8d3fda8"
+    },
+    {
+      "path": "src/assets/fonts/The-Icon-of.ttf",
+      "sha1": "0377c225f36c6dce4cbd35e7303b53664422b6bf"
+    },
+    {
+      "path": "src/assets/img/closed.png",
+      "sha1": "152c4895b3b96ff4586aca5b91cc41f205946680"
+    },
+    {
+      "path": "src/assets/img/exampleID.png",
+      "sha1": "f626a25003bd074e893e0feeb9452e07491bae41"
+    },
+    {
+      "path": "src/assets/img/icon.png",
+      "sha1": "6b784183fe0ca92d8677424f03d470e2b6a6c522"
+    },
+    {
+      "path": "src/assets/img/logo.png",
+      "sha1": "c3842a3745890197e082130cc71ba3ac414a8047"
+    },
+    {
+      "path": "src/assets/img/splash.png",
+      "sha1": "76009592a4f8677c83ec789256204e50bf98f8d9"
+    },
+    {
+      "path": "src/assets/img/squadFooter.png",
+      "sha1": "300dda0bc84c25d07bbc222f0b1520835585308b"
+    },
+    {
+      "path": "src/assets/img/wordmark.png",
+      "sha1": "704b9414449e786e8c1d70ecd1ea58d82cd85e2e"
+    }
+  ]
+}
