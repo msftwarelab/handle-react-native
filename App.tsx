@@ -24,6 +24,11 @@ import {LogBox} from 'react-native';
 import firestore from '@react-native-firebase/firestore';
 import functions from '@react-native-firebase/functions';
 import auth from '@react-native-firebase/auth';
+import * as Sentry from '@sentry/react-native';
+
+Sentry.init({
+  dsn: 'https://2575c7cb6c196769f082fa0d5c1f08cb@o914489.ingest.sentry.io/4506659575824384',
+});
 
 LogBox.ignoreLogs([
   'Non-serializable values were found in the navigation state',

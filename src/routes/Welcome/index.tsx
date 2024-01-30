@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
   Dimensions,
   Image,
+  Button,
   SafeAreaView,
   InputAccessoryView,
   Linking,
@@ -17,6 +18,7 @@ import {RootStackParamList} from '@/types';
 import auth from '@react-native-firebase/auth';
 import {Theme} from '@/constants';
 import functions from '@react-native-firebase/functions';
+import * as Sentry from '@sentry/react-native';
 
 export function Welcome({
   navigation,
