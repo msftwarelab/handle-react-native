@@ -4,7 +4,7 @@ import {BoldText, CustomIcon, Gutter, RegularText} from '@/components';
 import {useNavigation} from '@react-navigation/native';
 import {RootStackParamList} from '@/types';
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
-import {useUserData} from '@/hooks';
+import {useUniversity, useUserData} from '@/hooks';
 import {Referral} from './Referral';
 import {QueryKey, Theme} from '@/constants';
 import functions from '@react-native-firebase/functions';
@@ -12,6 +12,7 @@ import {useQuery} from '@tanstack/react-query';
 
 export const Subheader = memo(function Subheader() {
   const userData = useUserData();
+  const university = useUniversity();
   const navigation =
     useNavigation<NativeStackNavigationProp<RootStackParamList>>();
   const [showReferralModal, setShowReferralModal] = useState(false);
@@ -66,7 +67,9 @@ export const Subheader = memo(function Subheader() {
         />
         <LineItem
           emoji="💰"
-          title="Give $10, get $10!"
+          title={`Give $${university.data?.data()?.referralBonus}, get $${
+            university.data?.data()?.referralBonus
+          }!`}
           callback={() => {
             setShowReferralModal(true);
           }}
