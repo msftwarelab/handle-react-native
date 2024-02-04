@@ -25,6 +25,7 @@ import firestore from '@react-native-firebase/firestore';
 import functions from '@react-native-firebase/functions';
 import auth from '@react-native-firebase/auth';
 import * as Sentry from '@sentry/react-native';
+import { Adjust, AdjustEvent, AdjustConfig } from 'react-native-adjust';
 
 Sentry.init({
   dsn: 'https://2575c7cb6c196769f082fa0d5c1f08cb@o914489.ingest.sentry.io/4506659575824384',
@@ -54,6 +55,8 @@ export default function App(): JSX.Element {
     useState<FirebaseMessagingTypes.Notification>();
 
   useEffect(() => {
+    const adjustConfig = new AdjustConfig("u51wkukv61hc", AdjustConfig.EnvironmentSandbox);
+    Adjust.create(adjustConfig);
     SplashScreen.hide();
     messaging().onMessage(async remoteMessage => {
       setNotification(remoteMessage.notification);
@@ -61,6 +64,9 @@ export default function App(): JSX.Element {
         setNotification(undefined);
       }, 5000);
     });
+    return () => {
+      Adjust.componentWillUnmount();
+    };
   }, []);
 
   return (
